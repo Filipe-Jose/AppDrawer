@@ -27,13 +27,14 @@
             android:text="Bem-vindo!"
             android:layout_marginTop="8dp"
             android:padding="30dp"
-            android:textSize="18sp"/>
+            android:textSize="18sp"
+            android:gravity="center"/>
 
         <com.google.android.material.navigation.NavigationView
             android:layout_width="250dp"
             android:layout_height="match_parent"
             app:menu="@menu/navigation_drawer"
-            android:id="@+id/navigatinView"/>
+            android:id="@+id/navigationView" />
 
     </LinearLayout>
 
